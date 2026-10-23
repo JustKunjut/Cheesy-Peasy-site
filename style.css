@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    background-color: blanchedalmond;
+}
+
+body, html {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header__container {
+    max-width: 1270px;
+    margin-inline: auto;
+}
+
+.main__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+    padding: 20px;
+}
+
+.cheesy__card img {
+    width: 150px;
+}
+
+.cheesy__card h2 {
+    font: 700;
+}
+
+.cheesy__card p {
+    font-style: italic;
+    line-height: 1.5;
+    color: #555;
+    flex-grow: 1;
+}
+
+header {
+    padding-block: 20px; 
+    width: 100%;
+    height: 100px;
+}
+
+.header__container img {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    transform: translate(-250px,-46px);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.cheesy__card a {
+    display: inline-block;
+    padding: 8px 24px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.cheesy__card a:hover {
+    background-color: darkorange; 
+}
+
+.main__aside {
+    display: flex;
+    height: auto;
+    width: 300px;
+}
+
+.cheesy__card {
+    transform: translate(-140px);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 49px;
+}
+
+ul {
+    list-style: none;
+}
+
+.main2 {
+    columns: 4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.main2__container {
+    width: 100%;
+    display: grid;
+    gap: 20px; 
+    justify-content: space-between;
+    gap: 23px;
+    padding: 20px;
+}
+
+.cheesy__card2 img {
+    width: 150px;
+}
+
+.cheesy__card2 h2 {
+    font: 700;
+}
+
+.cheesy__card2 p {
+    font-style: italic;
+    line-height: 1.5;
+    color: #555;
+    flex-grow: 1;
+}
+
+.cheesy__card2 a {
+    display: inline-block;
+    padding: 8px 24px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.cheesy__card2 a:hover {
+    background-color: darkorange; 
+}
+
+.header__list-item a {
+    text-decoration: none;
+    color: #555;
+}
+
+.header__list-item a:hover {
+    color: black;
+}
