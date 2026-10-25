@@ -167,6 +167,15 @@ ul {
     color: #555;
 }
 
+.cheese__footer {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 20px;
+    margin: 20px;
+}
+
 .header__list-item a:hover {
     color: black;
 }
