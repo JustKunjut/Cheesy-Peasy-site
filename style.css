@@ -167,15 +167,34 @@ ul {
     color: #555;
 }
 
-.cheese__footer {
-    background-color: #222;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 40px 20px 20px;
-    margin: 20px;
-}
-
 .header__list-item a:hover {
     color: black;
 }
+
+.cheese__footer {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 40px 20px;
+}
+ .cheese__footer a {
+    color: #aaaaaa;
+    text-decoration: none;
+ }
+
+ .cheese__footer a:hover {
+   color: #fff;
+ }
+
+ .footer__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .footer__block1 {
+    flex: 1;
+    min-width: 200px;             
+    margin: 10px;
+ }
